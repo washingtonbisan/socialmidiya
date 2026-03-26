@@ -48,7 +48,7 @@ export default function RootLayout({
                 <div className="max-w-7xl mx-auto px-4">
                   {/* Fixed: Sidebar and children are now both inside the grid */}
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-                    <div className="lg:col-span-3">
+                    <div className="lg:col-span-4">
                       <Sidebar />
                     </div>
                     <div className="lg:col-span-9">{children}</div>
